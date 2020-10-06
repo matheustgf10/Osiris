@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $LoginController = BindInject(
+  (i) => LoginController(),
+  singleton: true,
+  lazy: true,
+);

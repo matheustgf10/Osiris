@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $LoginRepository = BindInject(
+  (i) => LoginRepository(i<DioForNative>()),
+  singleton: true,
+  lazy: true,
+);

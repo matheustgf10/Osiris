@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $ProductRepository = BindInject(
+  (i) => ProductRepository(i<DioForNative>()),
+  singleton: true,
+  lazy: true,
+);

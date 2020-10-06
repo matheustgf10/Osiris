@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $ProductController = BindInject(
+  (i) => ProductController(),
+  singleton: true,
+  lazy: true,
+);

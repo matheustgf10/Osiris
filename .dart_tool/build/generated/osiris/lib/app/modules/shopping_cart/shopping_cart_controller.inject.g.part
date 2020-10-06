@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $ShoppingCartController = BindInject(
+  (i) => ShoppingCartController(),
+  singleton: true,
+  lazy: true,
+);

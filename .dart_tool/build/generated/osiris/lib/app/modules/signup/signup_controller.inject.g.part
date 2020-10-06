@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $SignupController = BindInject(
+  (i) => SignupController(),
+  singleton: true,
+  lazy: true,
+);

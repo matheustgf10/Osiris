@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $ShoppingCartRepository = BindInject(
+  (i) => ShoppingCartRepository(i<DioForNative>()),
+  singleton: true,
+  lazy: true,
+);

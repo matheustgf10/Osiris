@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $SettingsController = BindInject(
+  (i) => SettingsController(),
+  singleton: true,
+  lazy: true,
+);

@@ -1,0 +1,10 @@
+osiris/lib/main.dart
+osiris/lib/app/app_module.dart
+osiris/lib/app/app_widget.dart
+osiris/lib/app/modules/home/home_module.dart
+osiris/lib/app/app_controller.dart
+osiris/lib/app/modules/home/home_page.dart
+osiris/test/app/app_controller_test.dart
+osiris/test/app/modules/home/home_page_test.dart
+osiris/lib/app/modules/home/home_controller.dart
+osiris/test/app/modules/home/home_controller_test.dart

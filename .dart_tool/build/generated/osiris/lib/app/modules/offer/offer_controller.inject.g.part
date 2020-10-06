@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $OfferController = BindInject(
+  (i) => OfferController(),
+  singleton: true,
+  lazy: true,
+);

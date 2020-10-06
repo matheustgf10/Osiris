@@ -1,0 +1,9 @@
+// **************************************************************************
+// InjectionGenerator
+// **************************************************************************
+
+final $SettingsRepository = BindInject(
+  (i) => SettingsRepository(i<DioForNative>()),
+  singleton: true,
+  lazy: true,
+);
