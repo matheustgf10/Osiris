@@ -1,48 +1,48 @@
 name: osiris
 description: A new Flutter project. Created by Slidy
 
-publish_to: 'none' 
+publish_to: "none"
 
 version: 1.0.0+1
 
-## Slidy Scripts 
-vars: 
-    clean: flutter clean
-    get: flutter pub get
-    runner: flutter pub run build_runner
-scripts: 
-    mobx_build: $runner build
-    mobx_watch: $clean & $get & $runner watch
-    mobx_build_clean: $clean & $get & $runner build --delete-conflicting-outputs
-
-
+## Slidy Scripts
+vars:
+  clean: flutter clean
+  get: flutter pub get
+  runner: flutter pub run build_runner
+scripts:
+  mobx_build: $runner build
+  mobx_watch: $clean & $get & $runner watch
+  mobx_build_clean: $clean & $get & $runner build --delete-conflicting-outputs
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
-  dio: ^3.0.10
-  flutter_mobx: ^1.1.0+2
-  mobx: ^1.2.1+2
-  flutter_modular: ^2.0.1
   flutter:
     sdk: flutter
+  auto_search: ^1.0.6
+  convex_bottom_bar: ^2.5.1
+  dio: ^3.0.10
+  drag_select_grid_view: ^0.3.1
+  easy_search: ^1.0.6
+  flutter_mobx: ^1.1.0+2
+  flutter_modular: ^2.0.1
+  mobx: ^1.2.1+2
 
 dev_dependencies:
-  mockito: ^4.1.2
-  modular_codegen: ^2.0.0+1
-  mobx_codegen: ^1.1.0+2
-  build_runner: ^1.10.1
   flutter_test:
     sdk: flutter
+  build_runner: ^1.10.1
+  mobx_codegen: ^1.1.0+2
+  mockito: ^4.1.2
+  modular_codegen: ^2.0.0+1
 
 flutter:
   uses-material-design: true
-
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
-
   # fonts:
   #   - family: Schyler
   #     fonts:

@@ -29,6 +29,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.5.0-nullsafety.1"
+  auto_search:
+    dependency: "direct main"
+    description:
+      name: auto_search
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.6"
   boolean_selector:
     dependency: transitive
     description:
@@ -148,6 +155,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.1"
+  convex_bottom_bar:
+    dependency: "direct main"
+    description:
+      name: convex_bottom_bar
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.5.1"
   crypto:
     dependency: transitive
     description:
@@ -176,6 +190,20 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.0.10"
+  drag_select_grid_view:
+    dependency: "direct main"
+    description:
+      name: drag_select_grid_view
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.3.1"
+  easy_search:
+    dependency: "direct main"
+    description:
+      name: easy_search
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.6"
   fake_async:
     dependency: transitive
     description:
